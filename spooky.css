@@ -1,0 +1,165 @@
+@font-face {
+    font-family: Eater;
+    src: url(https://fonts.gstatic.com/s/eater/v5/3d7OrhhDTayeJ3vSN8V5NA.woff2) format('woff2');
+}
+
+body {
+  font-family:Eater, Chiller, sans;
+  text-shadow: 0 1px 1px black;
+  background: #2d0505;
+  /*skeltal, bloodrain*/
+  background-image:  url(https://i.imgur.com/jXGMvJ0.gif), url(https://i.imgur.com/jTyqCcE.gif);
+  background-repeat: no-repeat, no-repeat;
+  background-size: 100%, cover;
+  background-attachment: fixed, scroll;
+  color: #c0c0c0;
+}
+
+.pu-lbl {
+  color: #ff7e00;
+}
+
+#disclaimer-modal {
+ background-color: #0f0000;
+}
+
+#disclaimer h3 {
+  border-bottom: 1px solid #ef6e01;
+}
+
+a,
+a:visited {
+  color: #d30000;
+}
+
+a.replylink:not(:hover),
+div#absbot a:not(:hover) {
+  color: #d30000!important
+}
+hr {
+  border-top: 1px solid #ef6e01;
+}
+
+div#boardNavDesktop a {
+  color: #c0c0c0
+}
+
+div.sideArrows {
+  color: #ef6e00;
+}
+
+div.reply {
+  background-color: #0f0000;
+  border: 1px solid #ef6e01;
+}
+
+div.post div.postInfo span.postNum a {
+  text-decoration: none;
+  color: #c0c0c0
+}
+div.post div.postInfo span.nameBlock span.name {
+  color: #ff7e00;
+}
+
+div.post div.postInfo span.nameBlock span.postertrip {
+  color: #ff7e00;
+}
+.deadlink,
+.pageJump a,
+.quoteLink,
+.quotelink {
+  color: #c00 !important;
+}
+div.pagelist {
+  background: #0f0000;
+  border-right: 1px solid #ef6e01;
+  border-bottom: 1px solid #ef6e01;
+}
+
+div.pagelist strong {
+  color: #c0c0c0
+}
+
+div.pagelist div.cataloglink {
+  border-left: 1px solid #ef6e01;
+}
+
+
+
+div#boardNavDesktopFoot a {
+  color: #c0c0c0
+}
+.reply.highlight,
+.reply:target {
+  background: #300!important;
+  border: 1px solid #500!important;
+}
+.preview {
+  background: #0f0000;
+  border: 1px solid #ef6e01!important;
+  border-right: 2px solid #ef6e01!important;
+  border-bottom: 2px solid #ef6e01!important
+}
+
+.persistentNav,
+div#boardNavMobile {
+  background-color: #0f0000;
+  border-bottom: 2px solid #ef6e01;
+  position: fixed;
+  top: 0;
+}
+
+.useremail:not(:hover) .name,
+.useremail:not(:hover) .postertrip {
+  color: #d30000!important
+}
+
+table.flashListing .name,
+table.flashListing .postertrip {
+  color: #ff7e00
+}
+
+.dd-menu ul {
+  background-color: #0f0000;
+  border: 1px solid #ef6e01;
+}
+.dd-menu li {
+  border-bottom: 1px solid #ef6e01
+}
+
+.yotsuba_new .postMenuBtn, .futaba_new .postMenuBtn {
+  color: #ff1010;
+}
+.postblock, table.postForm > tbody > tr > td:first-child {
+	background-color: #0b0000;
+	color: #f70;
+}
+
+div.boardTitle:before {
+    content: "The  haunted  house  of";
+    letter-spacing: 2px;
+    display: block;
+    font-size: 15pt;
+}
+div.sideArrows {
+  visibility:hidden;
+}
+div.sideArrows {
+  visibility:hidden;
+  font-size: 1px;
+}
+div.sideArrows::after {
+  content: '☠';
+  font-size:24px;
+  visibility:visible;
+}
+div.boardTitle {
+    font-family: Eater !important;
+}
+
+.greenPostContainer .postMessage {
+  color: #c0c0c0 !important;
+}
+.greenPostContainer .post.reply {
+  background-color: #030 !important;
+}
