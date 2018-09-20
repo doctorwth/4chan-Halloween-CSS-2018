@@ -2,7 +2,7 @@ This is my're 2018 4chan CSS Viruse for Halloween. The only thing that matters i
 
 ![Screencap Image](https://i.imgur.com/8cxNKyG.png)
 
-#Installation
+# Installation
 1. Open the css file
 2. Copy everything.
 3. Open any 4chan board (highly recommended: [s4s])
